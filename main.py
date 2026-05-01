@@ -1,8 +1,10 @@
-fruit = "Apple"
-print(fruit[1])
-print(fruit[1:4])
+temperature = 15
+if temperature > 30:
+    print("It's warm")
+    print("Drink water")
+elif temperature > 20:
+    print("It's nice")
+else:
+    print("It's cold")
 
-print(10 % 3)  # 1
-
-print(bool("False"))  # True
-print(bool(""))  # False
+print("Done")
