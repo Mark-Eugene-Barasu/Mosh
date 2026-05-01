@@ -1,16 +1,10 @@
-# numbers 
-a = 10 # integer number
-b = 12.1 # float number
-c = 1 + 2j # complex number
+import math
 
-print(a + b) # addition
-print(a - b) # subtraction
-print(a * b) # multiplication
-print(a / b) # division
-print(a % 3) # modulus
-print(a ** 2) # exponentiation
 
-x = 10
-x += 5 # x = x + 5
-print(x) # 15
+# working with numbers
+print(round(2.9))  # 3
+print(abs(-2.9))  # 2.9
 
+# math module
+print(math.ceil(2.9))  # 3
+print(math.floor(2.9))  # 2
