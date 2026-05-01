@@ -1,8 +1,4 @@
-successful = True
-for number in range(3):
-    print("Attempt")
-    if successful:
-        print("Successful")
-        break
-else:
-    print("Attempted 3 times and failed")
+# nested loops
+for x in range(5): # outer loop
+    for y in range(3): # inner loop
+        print(f"({x}, {y})")
