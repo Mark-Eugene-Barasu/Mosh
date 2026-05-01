@@ -1,13 +1,10 @@
-# Exercise
-# 2
-# 4
-# 6
-# 8
-# We have 4 even numbers
+# Functions
 
-count = 0
-for i in range(1, 10):
-    if i % 2 == 0:
-        print(i)
-        count += 1
-print(f"We have {count} even numbers")
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
+    print("Welcome aboard")
+
+
+greet("Eugene", "Barasu")
+greet("Esther", "Barasu")
+# greet("John")
