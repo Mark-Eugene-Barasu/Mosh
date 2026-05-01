@@ -1,11 +1,16 @@
-course = "  Python Programming"
-print(course.upper())
-print(course.lower())
-print(course.title())
-print(course.strip())
-print(course.lstrip())
-print(course.rstrip())
-print(course.find("Pro"))
-print(course.replace("Python", "JavaScript"))
-print("Python" in course)
-print("Java" not in course)
+# numbers 
+a = 10 # integer number
+b = 12.1 # float number
+c = 1 + 2j # complex number
+
+print(a + b) # addition
+print(a - b) # subtraction
+print(a * b) # multiplication
+print(a / b) # division
+print(a % 3) # modulus
+print(a ** 2) # exponentiation
+
+x = 10
+x += 5 # x = x + 5
+print(x) # 15
+
