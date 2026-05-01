@@ -1,4 +1,11 @@
-first = "Eugene"
-last = "Barasu"
-full_name = f"{len(first)} {2 + 2} {first} {last}"
-print(full_name)
+course = "  Python Programming"
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(course.strip())
+print(course.lstrip())
+print(course.rstrip())
+print(course.find("Pro"))
+print(course.replace("Python", "JavaScript"))
+print("Python" in course)
+print("Java" not in course)
