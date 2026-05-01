@@ -1,8 +1,13 @@
-# infinite loop
+# Exercise
+# 2
+# 4
+# 6
+# 8
+# We have 4 even numbers
 
-while True:
-    command = input(">")
-    print("Echo:", command)
-    if command.lower() == "exit":
-        print("Exiting the program.")
-        break
+count = 0
+for i in range(1, 10):
+    if i % 2 == 0:
+        print(i)
+        count += 1
+print(f"We have {count} even numbers")
