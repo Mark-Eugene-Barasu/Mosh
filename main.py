@@ -1,9 +1,4 @@
-# short-circuit evaluation
-high_income = False
-good_credit = True
-student = False
-
-
-if high_income or good_credit and not student:
-    print("Eligible for loan") 
-
+# age should be between 18 and 25
+age = 22 
+if 18 <= age < 65:
+    print("Eligible")
