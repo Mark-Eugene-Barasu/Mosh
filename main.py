@@ -1,4 +1,11 @@
-age = 12
+# local operators
+high_income = False
+good_credit = True
+student = False
 
-message = "Eligible" if age >= 18 else "Not Eligible"
-print(message)
+
+if (high_income or good_credit) and not student:
+    print("Eligible for loan")
+else:
+    print("Not eligible for loan") 
+
