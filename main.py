@@ -1,7 +1,8 @@
-x = input("x: ")
-y = int(x) + 1
-print(f"x: {x}")
-print(f"y: {y}")    
+fruit = "Apple"
+print(fruit[1])
+print(fruit[1:4])
 
-# Falsy
-# "", '', 0, 0.0, [], {}, None, False
+print(10 % 3)  # 1
+
+print(bool("False"))  # True
+print(bool(""))  # False
