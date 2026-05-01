@@ -1,4 +1,8 @@
-command = ""
-while command.lower().strip() != "exit":
+# infinite loop
+
+while True:
     command = input(">")
-    print("ECHO", command)
+    print("Echo:", command)
+    if command.lower() == "exit":
+        print("Exiting the program.")
+        break
